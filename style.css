@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+.btnCv:hover {
+  padding-bottom: 3px;
+  transition: 0.1s;
+}
+
+.btnHere:hover {
+  padding-bottom: 3px;
+  transition: 0.1s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  background-color: #222;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.canvas {
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  padding: 5rem 17rem;
+}
+
+.Navlist {
+  display: flex;
+  font-family: Roboto Mono, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  padding: 0 17rem;
+  padding-bottom: 10rem;
+}
+
+.navlist {
+  display: flex;
+  font-size: 1.7rem;
+}
+
+.navItems a {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  color: #a3a3a3;
+}
+.navItems a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.navItems:not(:last-of-type) {
+  margin-right: 2rem;
+  border-right: #fff solid 1px;
+  padding-right: 2rem;
+}
+
+.dataName {
+  margin-top: 16rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  color: #fff;
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+.lateral {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-rows: repeat(3, 5rem);
+}
+.lateral img {
+  width: 3.5rem;
+}
+.lateral a:last-of-type {
+  border-bottom: solid 1px #fff;
+  padding-bottom: 2rem;
+}
+
+.statistika {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.SKABoxs {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  margin: 0 2rem;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 15px 12px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.SKAtexts {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-weight: 900;
+}
+.SKAtexts h1 {
+  font-size: 5rem;
+  color: #05da25;
+}
+.SKAtexts p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.SKAgrate {
+  width: 2rem;
+  height: 2rem;
+}
+
+.DMtitle {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 4rem;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+.dataMe {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+  align-items: center;
+}
+
+.DMleft img {
+  width: 50%;
+  height: 50%;
+}
+
+.DMright {
+  font-family: "Roboto Mono", monospace;
+}
+.DMright h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 600;
+  line-height: 4rem;
+}
+.DMright p {
+  margin-top: 3rem;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #898989;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.btnHere {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: #222;
+  background-color: #05da25;
+  border-radius: 6px;
+  font-size: 2rem;
+  border: none;
+  text-align: center;
+  padding: 0.1rem 1.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.btnCv {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  background: none;
+  border: #fff solid 1px;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+  padding: 0.1rem 1.5rem;
+  cursor: pointer;
+}
+
+.SKtitle {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 4rem;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  margin-top: 8rem;
+}
+
+.SKContainer {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+  align-items: center;
+}
+
+.SKleft {
+  font-family: "Roboto Mono", monospace;
+}
+.SKleft h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 600;
+  line-height: 4rem;
+}
+.SKleft p {
+  margin-top: 3rem;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #898989;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.SkillsBOX {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.SkillsBOX img {
+  background-color: #333;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 6rem;
+  height: 6rem;
+}
+.CTtitle{
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 4rem;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  margin-top: 8rem;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
